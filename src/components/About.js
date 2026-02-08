@@ -308,7 +308,7 @@ const About = () => {
 
           <DownloadButton
             variants={itemVariants}
-            href="/Yumna_Gul_CV_Professional.pdf"
+            href="/Yumna_Gul_CV.pdf"
             download="Yumna_Gul_CV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
