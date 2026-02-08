@@ -223,6 +223,33 @@ const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef();
 
+  const handleDownload = async (e) => {
+    e && e.preventDefault();
+    const url = `${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf`;
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      const contentType = res.headers.get('content-type') || '';
+      if (contentType.includes('text/html')) {
+        window.open(url, '_blank');
+        alert('Server is returning HTML (index.html). This means your host is rewriting unknown paths to index.html — tell me where you host so I can advise.');
+        return;
+      }
+      const blob = await res.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = blobUrl;
+      a.download = 'Yumna_Gul_CV.pdf';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      window.URL.revokeObjectURL(blobUrl);
+    } catch (err) {
+      console.error('Download error:', err);
+      window.open(url, '_blank');
+      alert('Could not download file directly — opened in new tab as fallback.');
+    }
+  };
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -309,6 +336,7 @@ const About = () => {
           <DownloadButton
             variants={itemVariants}
             href={`${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf`}
+            onClick={handleDownload}
             download="Yumna_Gul_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"

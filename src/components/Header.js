@@ -201,8 +201,10 @@ const Header = ({ scrollY }) => {
         <ButtonContainer variants={itemVariants}>
           <Button
             primary
-            href="/Yumna_Gul_CV_Professional.pdf"
+            href={`${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf`}
             download="Yumna_Gul_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
