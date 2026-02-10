@@ -208,13 +208,13 @@ const projects = [
     features: [
       'Data preprocessing and analysis',
       'Machine learning model implementation',
-      'Interactive Streamlit web interface',
+      'Interactive Hugging Face Space interface',
       'Real-time stress prediction',
       'Comprehensive data visualization'
     ],
     technologies: ['Python', 'Streamlit', 'Machine Learning', 'Data Analysis', 'Pandas'],
     githubUrl: 'https://github.com/yumnagul',
-    liveUrl: 'https://stress-detection-app-mujpcqwlwugyqzkax5cufh.streamlit.app/',
+    liveUrl: 'https://huggingface.co/spaces/Yumna-Gul/Stress-Detection',
     icon: <FaCode />,
     color: '#DC267F'
   }

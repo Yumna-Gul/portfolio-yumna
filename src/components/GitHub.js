@@ -226,13 +226,14 @@ const repositories = [
   {
     name: 'stress-detection',
     fullName: 'Stress Detection from Social Media',
-    description: 'Machine learning project that analyzes social media data to predict stress levels using Python.',
+    description: 'Machine learning project that analyzes social media data to predict stress levels using Python. Live demo available on Hugging Face Spaces.',
     stars: 23,
     forks: 7,
     watchers: 12,
     language: 'Python',
     languages: ['Python', 'Streamlit', 'Machine Learning'],
-    url: 'https://github.com/yumnagul/stress-detection'
+    url: 'https://github.com/yumnagul/stress-detection',
+    liveUrl: 'https://huggingface.co/spaces/Yumna-Gul/Stress-Detection'
   },
   {
     name: 'portfolio-website',
