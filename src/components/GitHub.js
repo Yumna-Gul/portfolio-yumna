@@ -221,7 +221,7 @@ const repositories = [
     watchers: 8,
     language: 'JavaScript',
     languages: ['JavaScript', 'HTML', 'CSS', 'React'],
-    url: 'https://github.com/yumnagul/kitab-ghar'
+    url: 'https://github.com/Yumna-Gul/Online-Library'
   },
   {
     name: 'stress-detection',
@@ -232,7 +232,7 @@ const repositories = [
     watchers: 12,
     language: 'Python',
     languages: ['Python', 'Streamlit', 'Machine Learning'],
-    url: 'https://github.com/yumnagul/stress-detection',
+    url: 'https://github.com/Yumna-Gul/Stress-Detection-app',
     liveUrl: 'https://huggingface.co/spaces/Yumna-Gul/Stress-Detection'
   },
   {
@@ -244,7 +244,7 @@ const repositories = [
     watchers: 10,
     language: 'JavaScript',
     languages: ['JavaScript', 'React', 'Styled Components', 'Framer Motion'],
-    url: 'https://github.com/yumnagul/portfolio-website'
+    url: 'https://github.com/Yumna-Gul/portfolio-yumna'
   },
   {
     name: 'ui-design-projects',
@@ -255,7 +255,7 @@ const repositories = [
     watchers: 6,
     language: 'Design',
     languages: ['Figma', 'UI Design', 'Wireframing'],
-    url: 'https://github.com/yumnagul/ui-design-projects'
+    url: 'https://github.com/Yumna-Gul/ui-design-projects'
   }
 ];
 
@@ -336,7 +336,7 @@ const GitHub = () => {
               UI/UX design, and data science. Always learning and building innovative projects.
             </ProfileBio>
             <ProfileLink
-              href="https://github.com/yumnagul"
+              href="https://github.com/Yumna-Gul?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

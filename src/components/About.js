@@ -225,7 +225,8 @@ const About = () => {
 
   const handleDownload = async (e) => {
     e && e.preventDefault();
-    const url = `${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf`;
+    const timestamp = new Date().getTime();
+    const url = `${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf?t=${timestamp}`;
     try {
       const res = await fetch(url, { cache: 'no-store' });
       const contentType = res.headers.get('content-type') || '';
@@ -335,7 +336,7 @@ const About = () => {
 
           <DownloadButton
             variants={itemVariants}
-            href={`${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf`}
+            href={`${process.env.PUBLIC_URL}/Yumna_Gul_CV.pdf?t=${new Date().getTime()}`}
             onClick={handleDownload}
             download="Yumna_Gul_CV.pdf"
             target="_blank"
