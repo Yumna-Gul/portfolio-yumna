@@ -205,7 +205,7 @@ const Navigation = () => {
 
           <SocialLinks>
             <SocialLink
-              href="https://github.com/yumnagul"
+              href="https://github.com/Yumna-Gul?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2 }}
@@ -242,7 +242,7 @@ const Navigation = () => {
 
             <MobileSocialLinks>
               <SocialLink
-                href="https://github.com/yumnagul"
+                href="https://github.com/Yumna-Gul?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
               >

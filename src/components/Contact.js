@@ -376,7 +376,7 @@ const Contact = () => {
             <ContactDetails>
               <ContactLabel>GitHub</ContactLabel>
               <ContactValue 
-                href="https://github.com/yumnagul" 
+                href="https://github.com/Yumna-Gul?tab=repositories" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -479,7 +479,7 @@ const Contact = () => {
 
       <SocialLinks variants={itemVariants}>
         <SocialLink
-          href="https://github.com/yumnagul"
+          href="https://github.com/Yumna-Gul?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1 }}

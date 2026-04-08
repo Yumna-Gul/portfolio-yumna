@@ -196,7 +196,7 @@ const projects = [
       'Responsive design for all devices'
     ],
     technologies: ['Supabase', 'Vercel', 'HTML', 'CSS', 'JavaScript', 'React'],
-    githubUrl: 'https://github.com/yumnagul',
+    githubUrl: 'https://github.com/Yumna-Gul/Online-Library',
     liveUrl: 'https://kitab-ghar-silk.vercel.app/',
     icon: <FaDatabase />,
     color: '#003E7E'
@@ -213,7 +213,7 @@ const projects = [
       'Comprehensive data visualization'
     ],
     technologies: ['Python', 'Streamlit', 'Machine Learning', 'Data Analysis', 'Pandas'],
-    githubUrl: 'https://github.com/yumnagul',
+    githubUrl: 'https://github.com/Yumna-Gul/Stress-Detection-app',
     liveUrl: 'https://huggingface.co/spaces/Yumna-Gul/Stress-Detection',
     icon: <FaCode />,
     color: '#DC267F'
